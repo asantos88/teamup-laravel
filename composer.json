@@ -8,11 +8,20 @@
             "Asantos88\\TeamUpLaravel\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Asantos88\\LaravelTeamUp\\TeamUpServiceProvider"
+            ]
+        }
+    },
     "authors": [
         {
             "name": "Asantos88"
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "laravel/framework": "^10.5"
+    }
 }
